@@ -56,6 +56,17 @@
         <img src="static/img/soothe-white.png"alt="logo" height="78"><sup>TM</sup>
         <!-- <h2>for chrome</h2> -->
         <h3>Browse the web with peace of mind</h3>
+        
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-info">
+                <strong>Thanks for supporting Soothe!</strong> {{ message }}              
+              </div>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+
       </div>
       </div><!--/row -->
     </div><!--/container -->
@@ -121,7 +132,7 @@
         <h2>Be the first to try us!</h2>
         <h5>We will let you know the second we have a product for you to try</h5>
           <div class="mtb">
-            <form role="form" action="register.php" method="post" enctype="plain"> 
+            <form role="form" action="sign_up" method="post" enctype="plain"> 
               <input type="email" name="email" class="subscribe-input" placeholder="Enter your e-mail address..." required>
               <button class='btn btn-conf btn-white' type="submit">Sign Up</button>
             </form>
