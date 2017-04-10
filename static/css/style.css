@@ -462,10 +462,10 @@ input {
 
 #bottom {
 	background: url(../img/bottom.jpg) no-repeat center top;
-	padding-top: 120px;
+	padding-top: 5%;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 600px;
+	min-height: 200px;
 	width: 100%;
 	color: white;
 	text-align: center;
@@ -496,9 +496,15 @@ input {
 }
 
 #bottom i {
-	font-size: 32px;
-	color: white;
-	margin-right: 20px;
+	font-size: 20px;
+	/*color: white;*/
+	margin-right: 1%;
+}
+
+#bottom a {
+	margin-left: 2%;
+	margin-right: 2%;
+
 }
 
 #bottom i:hover {
