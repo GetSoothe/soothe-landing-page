@@ -510,3 +510,22 @@ input {
 #bottom i:hover {
 	color: #49D49D
 }
+
+video#bgvid { 
+    /*min-width: 30%;*/
+    /*min-height: 30%;*/
+    width: 60%;
+    height: 60%;
+    /*width: auto;*/
+    /*height: auto;*/
+    z-index: -100;
+}
+
+
+@media screen and (max-width: 991px) {
+    video#bgvid {
+	    width: 90%;
+	    height: 90%;
+    }
+}
+
