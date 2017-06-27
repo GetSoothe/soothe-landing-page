@@ -48,6 +48,14 @@ body {
 	height: 100%;
 }
 
+#vice-logo {
+	max-width: 30%;
+}
+
+#press-div{
+	padding-top: 3%;
+}
+
 .alignleft { float: left; }
 .alignright { float: right; }
 .aligncenter {
