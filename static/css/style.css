@@ -49,8 +49,14 @@ body {
 }
 
 #vice-logo {
-	max-width: 30%;
+	max-width: 70%;
+	padding-bottom: 5%;
 }
+
+#tnw-logo {
+	max-width: 40%;
+}
+
 
 #press-div{
 	padding-top: 3%;
