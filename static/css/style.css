@@ -49,14 +49,18 @@ body {
 }
 
 #vice-logo {
-	max-width: 70%;
-	padding-bottom: 5%;
+	max-width: 80%;
+	padding-bottom: 10%;
 }
 
 #tnw-logo {
 	max-width: 40%;
+	padding-bottom: 10%;
 }
 
+#buzzfeed-logo {
+	max-width: 70%;
+}
 
 #press-div{
 	padding-top: 3%;
