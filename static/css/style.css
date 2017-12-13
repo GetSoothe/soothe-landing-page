@@ -49,12 +49,17 @@ body {
 }
 
 #vice-logo {
-	max-width: 80%;
+	max-width: 100%;
+	padding-bottom: 10%;
+}
+
+#ctv-logo {
+	max-width: 60%;
 	padding-bottom: 10%;
 }
 
 #tnw-logo {
-	max-width: 40%;
+	max-width: 60%;
 	padding-bottom: 10%;
 }
 
