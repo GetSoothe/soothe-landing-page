@@ -51,10 +51,11 @@
       <i class="ion-android-close menu-close"></i>
       <a href="#home" class="smoothScroll">Home</a>
       <a href="#firstsec" class="smoothScroll">Background</a>
+      <a href="/faq" class="smoothScroll">FAQ</a>
       <a href="#press" class="smoothScroll">Press</a>
-
       <a href="#iconsec" class="smoothScroll">Features</a>
       <a href="#bottomsec" class="smoothScroll">Register</a>
+
     </div>
     
     <!-- Menu button -->
@@ -71,7 +72,7 @@
         <!-- <h2>for chrome</h2> -->
         <h3>Browse the web with peace of mind</h3>
         <br>
-        <a href="https://chrome.google.com/webstore/detail/soothe/joaijebnefdghgmjodecakgdhjgolaan" class="btn btn-lg btn-info" style="color: white; background-color: transparent; border: white 1px solid"><i class="icon-info ion-social-chrome" style="color: white; font-size: 18px; padding-right: 2%;"></i> Download</a>
+        <a href="https://chrome.google.com/webstore/detail/soothe/joaijebnefdghgmjodecakgdhjgolaan" class="btn btn-lg btn-info download-btn"><i class="icon-info ion-social-chrome" style="color: white; font-size: 18px; padding-right: 2%;"></i> Download</a>
         
         {% with messages = get_flashed_messages() %}
           {% if messages %}
@@ -151,7 +152,7 @@
 
 
 
-   <section id="demo" style="background-color: #49d49d; text-align: center; padding-top: 3%; padding-bottom: 6%;">
+   <section id="demo">
     <h3 style="padding-bottom: 3%;">Real time harassment prevention, everywhere on the web</h3>
 
     <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
@@ -189,7 +190,8 @@
         <p>Only check off the content you want to avoid.</p>
       </div>
       <div class="col-md-12" style="padding-top: 5%;">
-        <a href="https://chrome.google.com/webstore/detail/soothe/joaijebnefdghgmjodecakgdhjgolaan" class="btn btn-lg btn-info" style="color: #49d49d; background-color: transparent; border: #49d49d 1px solid"><i class="icon-info ion-social-chrome" style="color: #49d49d; font-size: 18px; padding-right: 2%;"></i> Download Now</a>
+        <a href="https://chrome.google.com/webstore/detail/soothe/joaijebnefdghgmjodecakgdhjgolaan" class="btn btn-lg btn-info download-btn-green">
+          <i class="icon-info ion-social-chrome download-icon"></i> Download Now</a>
       </div>
 
     </div>
@@ -197,7 +199,7 @@
 
    <!-- ********** BOTTOM ********** -->
    <section id="bottomsec"></section>
-   <div id="bottom" style="background: none; background-color: #49D49D">
+   <div id="bottom" class="sign-up-bottom">
     <div class="row nomargin">
        <div class="col-md-6 col-md-offset-3"> 
         <h2>Get the latest news!</h2>
@@ -205,7 +207,7 @@
           <div class="mtb">
             <form role="form" action="sign_up" method="post" enctype="plain"> 
               <input type="email" name="email" class="subscribe-input" placeholder="Enter your e-mail address..." required>
-              <button class='btn btn-conf btn-white' type="submit">Sign Up</button>
+              <button class='btn btn-conf download-btn' type="submit">Sign Up</button>
             </form>
           </div><!--/mt-->
           <p class="mt-100">
@@ -214,12 +216,13 @@
     </div>
    </div>
    <section id="bottomsec"></section>
-     <div id="bottom" style="background: none; background-color: white; min-height: 10px; padding-top: 0%;">
+     <div id="bottom" class="bottom-contact">
       <span>
-              <h5 style="color: grey;">
-      <a href="MAILTO: admin@getsoothe.ca"><i class="icon-info ion-ios-email"></i>Email </a>
-      <a href="https://www.facebook.com/getsoothe/"><i class="icon-info ion-social-facebook"></i>Facebook </a>
-</h5>
+      <h5 style="color: grey;">
+        <a href="/faq"><i class="icon-info ion-ios-help"></i>FAQ </a>
+        <a href="MAILTO: admin@getsoothe.ca"><i class="icon-info ion-ios-email"></i>Email </a>
+        <a href="https://www.facebook.com/getsoothe/"><i class="icon-info ion-social-facebook"></i>Facebook </a>
+      </h5>
       </span>
     </div>
 

@@ -426,10 +426,40 @@ input {
 	font-size: 24px;
 }
 
+#demo {
+	background-color: #49d49d; 
+	text-align: center; 
+	padding-top: 3%; 
+	padding-bottom: 6%;
+}
+
 #h h5 {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-weight: 300;
+}
+
+.question {
+	padding-bottom: 2%;
+}
+
+.download-btn {
+	color: white; 
+	background-color: transparent; 
+	border: white 1px solid;
+}
+
+.download-btn-green {
+	color: #49d49d; 
+	background-color: transparent; 
+	border: white 1px #49d49d;
+}
+
+
+.press-section {
+	background: none; 
+	background-color: #d2d2d2; 
+	padding-top: 5%;
 }
 
 #h h2 {
@@ -440,6 +470,11 @@ input {
 	letter-spacing: 2px;
 }
 
+#faq-logo {
+	width: 200px;
+	padding-bottom: 3%;
+}
+
 #first {
 	width: 100%;
 	padding-top: 50px;
@@ -447,8 +482,15 @@ input {
 	background-color: #fff;
 }
 
+#first-faq{
+	padding-top: 50px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 20px;
+}
 
-#first h3 {
+
+#first h3, #first-faq h3 {
 	font-weight: 700;
 	color: #030303;
 	text-transform: uppercase;
@@ -492,6 +534,12 @@ input {
 	text-transform: uppercase;
 }
 
+.download-icon {
+	color: #49d49d; 
+	font-size: 18px; 
+	padding-right: 2%;
+}
+
 #bottom {
 	background: url(../img/bottom.jpg) no-repeat center top;
 	padding-top: 5%;
@@ -511,6 +559,18 @@ input {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.bottom-contact {
+	background: none; 
+    background-color: white; 
+    min-height: 10px; 
+    padding-top: 0%;
+}
+
+.sign-up-bottom {
+	background: none !important; 
+	background-color: #49D49D !important;
 }
 
 #bottom h2 {

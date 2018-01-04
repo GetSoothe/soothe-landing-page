@@ -13,6 +13,11 @@ firebase = firebase.FirebaseApplication(creds.FIREBASE_URL, None)
 def index():
     return render_template("index.html")
 
+@app.route('/faq')
+def faq():
+    return render_template("faq.html")
+
+
 @app.route('/sign_up', methods=['POST'])
 def sign_up():
 	email = request.form.get("email")
