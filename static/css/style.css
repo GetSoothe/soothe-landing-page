@@ -50,21 +50,30 @@ body {
 
 #vice-logo {
 	max-width: 100%;
-	padding-bottom: 10%;
+	padding-bottom: 15%;
 }
 
 #ctv-logo {
 	max-width: 60%;
-	padding-bottom: 10%;
+	padding-bottom: 15%;
+	padding-top: 10%;
+
 }
 
 #tnw-logo {
 	max-width: 60%;
-	padding-bottom: 10%;
+	padding-bottom: 15%;
+}
+
+#cbc-logo {
+	max-width: 50%;
+	padding-bottom: 15%;
 }
 
 #buzzfeed-logo {
 	max-width: 70%;
+	padding-bottom: 15%;
+
 }
 
 #press-div{
