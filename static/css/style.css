@@ -66,6 +66,11 @@ body {
 }
 
 #cbc-logo {
+	max-width: 40%;
+	padding-bottom: 15%;
+}
+
+#bbc-logo {
 	max-width: 50%;
 	padding-bottom: 15%;
 }
